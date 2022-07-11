@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebContent/index2.jsp=UTF-8
+encoding//WebContent/register.jsp=UTF-8
+encoding//src/com/rain/dao/AdminDao.java=UTF-8
+encoding//src/com/rain/dao/ObjectDao.java=UTF-8
+encoding//src/com/rain/servlet=UTF-8
+encoding//src/com/rain/servlet/addObjectServlet.java=UTF-8
+encoding//src/com/rain/servlet/addUserServlet.java=UTF-8
+encoding//src/com/rain/servlet/borrowServlet.java=UTF-8
+encoding/<project>=UTF-8

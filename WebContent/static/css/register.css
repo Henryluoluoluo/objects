@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/register.jpg) no-repeat;
+}
+
+.form-box{
+    /* 相对定位 */
+    background-color: rgba(255,255,255,0.1);
+    width: 600px;
+    height: 700px;
+    border-radius: 15px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* 背景模糊 */
+    backdrop-filter: blur(20px);
+    /* 阴影 */
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+.form-box .tit{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    margin: 20px auto 20px auto;
+}
+.form-box input{
+	width: 400px;
+    height: 50px;
+    background: transparent;
+    text-indent: 10px;
+    border-radius: 55px;
+    font-size:25px;
+    outline: none;
+    color: #fff;
+    margin: 15px auto;
+    display: float;
+}
+.form-box input::placeholder{
+    color: rgba(255,255,255,1.6);
+    font-size:25px;
+}
+.form-box button{
+    width: 370px;
+    height: 60px;
+    margin: 10px auto 10px auto;
+    border: none;
+    background-image:linear-gradient(120deg,#a6c0fe 0%,#f68084 100%);
+	color:#ffffff;
+    border-radius: 8px;
+    letter-spacing: 50px;
+    text-indent: 60px;
+    font-weight: bold;
+    font-size:30px;
+    cursor: pointer;
+}
+.form-box button:hover{
+    background: #0098d4;
+}
+.form-box span{
+    font-size: 25px;
+    color: #fff;
+}
+.form-box a{
+    color: #00addd;
+    text-decoration: none;
+}
